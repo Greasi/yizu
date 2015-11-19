@@ -1,0 +1,55 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><title></title>
+<style>
+html {margin:0;padding:0;}
+body {margin:0;padding:5px;}
+body, td {font-size:14px;line-height:20px;}
+body, p, div {word-wrap: break-word;}
+p {margin:5px 0;}
+table {border-collapse:collapse;}
+img {border:0;}
+noscript {display:none;}
+table.ke-zeroborder td {border:1px dotted #AAA;}
+img.ke-flash {
+	border:1px solid #AAA;
+	background-image:url(http://static.nowcoder.com/nowcoder/1.2.348/javascripts/lib/kindeditor/themes/common/flash.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	width:100px;
+	height:100px;
+}
+img.ke-rm {
+	border:1px solid #AAA;
+	background-image:url(http://static.nowcoder.com/nowcoder/1.2.348/javascripts/lib/kindeditor/themes/common/rm.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	width:100px;
+	height:100px;
+}
+img.ke-media {
+	border:1px solid #AAA;
+	background-image:url(http://static.nowcoder.com/nowcoder/1.2.348/javascripts/lib/kindeditor/themes/common/media.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	width:100px;
+	height:100px;
+}
+img.ke-anchor {
+	border:1px dashed #666;
+	width:16px;
+	height:16px;
+}
+.ke-script, .ke-noscript, .ke-display-none {
+	display:none;
+	font-size:0;
+	width:0;
+	height:0;
+}
+.ke-pagebreak {
+	border:1px dotted #AAA;
+	font-size:0;
+	height:2px;
+}
+</style>
+<style>body{background-color:transparent;font-family:arial,STHeiti,"Microsoft YaHei";line-height:2.0}p{line-height:1.8}blockquote{position:relative;color: #999;font-weight:300;font-family:Avenir, "Helvetica Neue", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans-serif;border-left:2px solid #1abc9c;padding: 10px 0 10px 10px;margin: .8em 0;}pre{font-size: 14px;position: relative;border-left: 2px solid #1abc9c;padding: 10px 0 10px 10px;margin: .8em 0;background: #fefefe;word-break:break-all;}a{color:#25bb9b;text-decoration:none;}</style>
+</head><body style="overflow: hidden;" class="ke-content"><div id="kePlaceholder" style="color:#ddd;">在这里畅所欲言你的看法吧！</div></body></html>

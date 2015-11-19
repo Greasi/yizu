@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- html svn version:1995 -->
+
+
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>讨论区_百度阿里腾讯谷歌小米笔试面试分享_牛客网</title>
+<meta name="description" content="计算机笔试面试题、百度笔试面试题、阿里巴巴笔试面试题、腾讯笔试面试题、谷歌笔试面试题，小米笔试面试题，微软笔试面试题等30家IT一流公司历年笔试面试题及答案在线讨论">
+<meta name="keywords" content="百度面试题，腾讯面试题，阿里面试题，IT笔试面试题库，牛客网">
+<script>
+var _czc = _czc || [];
+_czc.push(["_setAccount", "1253353781"]);
+</script>
+<link rel="stylesheet" href="http://static.nowcoder.com/nowcoder/1.2.348/stylesheets/styles/discuss/discuss.css"/>
+</head>
+<body>
+<?php echo view('header')?>
+<div class="nk-main clearfix">
+<!--主体内容-->
+<div class="module-box">
+<div class="module-head clearfix">
+<h1>
+话题发布
+</h1>
+<a href="/discuss" class="head-more-link">返回讨论区首页</a>
+</div>
+<div class="module-body discuss-publish">
+<div class="topic-selected-box clearfix">
+<div class="btn-group" id="jsTopicSelectedBox">
+<button data-toggle="dropdown" class="btn btn-default dropdown-toggle float-right">
+<span class="dropdown-value">
+笔试面经
+</span>
+<span class="caret"></span>
+</button>
+<ul class="dropdown-menu">
+<li
+class="selected"
+><a href="javascript:void(0);" class="active">笔试面经</a></li>
+<li
+><a href="javascript:void(0);" class="active">技术交流</a></li>
+<li
+><a href="javascript:void(0);" class="active">随便聊聊</a></li>
+<li
+><a href="javascript:void(0);" class="active">站内公告</a></li>
+<li
+><a href="javascript:void(0);" class="active">资源分享</a></li>
+<li
+><a href="javascript:void(0);" class="active">我要提问</a></li>
+<li
+><a href="javascript:void(0);" class="active">招聘信息</a></li>
+<li
+><a href="javascript:void(0);" class="active">工作感受</a></li>
+<li
+><a href="javascript:void(0);" class="active">全部</a></li>
+</ul>
+</div>
+<div class="control-group inline-block" id="jsTopTitle">
+<input class="discuss-topic-title" placeholder="标题：一句话说明你遇到的问题或想分享的经验"
+value=""
+type="text" style="width:660px;"/>
+</div>
+</div>
+<div class="discuss-tags">
+<span class="discuss-label">标签：</span>
+<div class="tags-box">
+<a href="javascript:void(0);" class="tag-label" data-id="134">阿里巴巴</a>
+<a href="javascript:void(0);" class="tag-label" data-id="138">腾讯</a>
+<a href="javascript:void(0);" class="tag-label" data-id="139">百度</a>
+<a href="javascript:void(0);" class="tag-label" data-id="140">人人</a>
+<a href="javascript:void(0);" class="tag-label" data-id="141">去哪儿</a>
+<a href="javascript:void(0);" class="tag-label" data-id="144">google</a>
+<a href="javascript:void(0);" class="tag-label" data-id="146">微软</a>
+<a href="javascript:void(0);" class="tag-label" data-id="147">小米</a>
+<a href="javascript:void(0);" class="tag-label" data-id="148">搜狐</a>
+<a href="javascript:void(0);" class="tag-label" data-id="149">网易</a>
+<a href="javascript:void(0);" class="tag-label" data-id="151">京东</a>
+<a href="javascript:void(0);" class="tag-label" data-id="153">携程</a>
+<a href="javascript:void(0);" class="tag-label" data-id="157">奇虎360</a>
+<a href="javascript:void(0);" class="tag-label" data-id="160">完美世界</a>
+<a href="javascript:void(0);" class="tag-label" data-id="171">迅雷</a>
+<a href="javascript:void(0);" class="tag-label" data-id="179">美团</a>
+<a href="javascript:void(0);" class="tag-label" data-id="639">java工程师</a>
+<a href="javascript:void(0);" class="tag-label" data-id="640">C++工程师</a>
+<a href="javascript:void(0);" class="tag-label" data-id="641">iOS工程师</a>
+<a href="javascript:void(0);" class="tag-label" data-id="642">安卓工程师</a>
+<a href="javascript:void(0);" class="tag-label" data-id="643">运维工程师</a>
+<a href="javascript:void(0);" class="tag-label" data-id="644">前端工程师</a>
+<a href="javascript:void(0);" class="tag-label" data-id="645">算法工程师</a>
+<a href="javascript:void(0);" class="tag-label" data-id="649">php工程师</a>
+</div>
+</div>
+<!-- 下面这个是华鑫的那个插件 -->
+<div class="js-editor"></div>
+<div class="txtarea-foot clearfix">
+<a href="javascript:void(0);"
+id="jsPublish"
+class="btn float-right btn-primary btn-modify-sure nc-req-auth click-pub-point">发布</a>
+<a href="javascript:void(0);" id="jsCancel" class="btn btn-default float-right btn-modify-cancel">取消</a>
+</div>
+</div>
+</div>
+<!--主体内容结束-->
+</div>
+<!--主体内容结束-->
+<?php echo view('foot')?>

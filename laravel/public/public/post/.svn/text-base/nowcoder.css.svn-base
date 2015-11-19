@@ -1,0 +1,132 @@
+/*工具栏*/
+.ke-container-nowcoder{
+    position: relative;
+    overflow: visible;
+}
+.ke-container-nowcoder .ke-toolbar{
+    background: #f5f5f5;
+    padding: 8px 10px;
+    margin: 0;
+    overflow: visible;
+    height: 22px;
+}
+.ke-dialog-nowcoder input {
+    width: auto;
+}
+.ke-dialog-nowcoder input[type="text"].ke-input-text{
+    border-width: 1px;
+    padding: 2px 4px;
+    width: auto;
+    font-size: 12px;
+}
+.ke-dialog-nowcoder input[type="text"].ke-input-number{
+    width: 50px;
+}
+.ke-dialog-nowcoder label{
+    font-size: 12px;
+}
+
+/*底部状态栏*/
+.ke-container-nowcoder .ke-statusbar{
+    display: none;
+}
+
+/* 华鑫，下面的代码拷过去就行 */
+/*工具栏*/
+.ke-toolbar .ke-outline {
+    border-color:#f5f5f5; 
+}
+.ke-container-nowcoder .ke-toolbar .ke-outline{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.ke-container-nowcoder .ke-toolbar-icon-url{
+    background-image: url(/images/img/editor/editorIco.png);
+}
+.ke-container-nowcoder .ke-toolbar-icon-url.ke-icon-source,
+.ke-container-nowcoder .ke-toolbar-icon-url.ke-icon-preview,
+.ke-container-nowcoder .ke-toolbar-icon-url.ke-icon-table,
+.ke-container-nowcoder .ke-toolbar-icon-url.ke-icon-subscript,
+.ke-container-nowcoder .ke-toolbar-icon-url.ke-icon-superscript,
+.ke-container-nowcoder .ke-toolbar-icon-url.ke-icon-forecolor,
+.ke-container-nowcoder .ke-toolbar-icon-url.ke-icon-link{
+    background-image: url(/images/img/editor/default.png);
+}
+.ke-container-nowcoder .ke-toolbar .ke-selected,
+.ke-container-nowcoder .ke-toolbar .ke-on{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #f8f8f8
+}
+.ke-container-nowcoder .ke-toolbar .ke-separator{
+    border-left: 1px solid #c2c2c2;
+    border-right: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 20px;
+    margin-top: 0;
+}
+.ke-container-nowcoder .ke-icon-bold{
+    background-position: 2px 1px;
+}
+.ke-container-nowcoder .ke-icon-italic{
+    background-position: 3px -29px;
+}
+
+.ke-container-nowcoder .ke-icon-underline{
+    background-position: 3px -57px;
+}
+
+.ke-container-nowcoder .ke-icon-bockquote{
+    background-position: 0 -85px;
+    width: 16px;
+    height: 16px;
+}
+
+.ke-container-nowcoder .ke-icon-codeblock{
+    background-position: 0 -111px;
+    width: 16px;
+    height: 16px;
+}
+
+.ke-container-nowcoder .ke-icon-insertorderedlist{
+    background-position: 0 -137px;
+}
+
+.ke-container-nowcoder .ke-icon-insertunorderedlist{
+    background-position: 0 -163px;
+}
+
+.ke-container-nowcoder .ke-icon-image,
+.ke-container-nowcoder .ke-icon-multiimage{
+    background-position: 1px -217px;
+}
+
+.ke-container-nowcoder .ke-icon-removeformat{
+    background-position: 1px -244px;
+}
+.ke-container-nowcoder .ke-toolbar-icon-url.ke-icon-source,
+.ke-container-nowcoder .ke-toolbar-icon-url.ke-icon-preview,
+.ke-container-nowcoder .ke-toolbar-icon-url.ke-icon-table {
+    background-image: url(/images/img/editor/editor1.png);
+}
+.ke-container-nowcoder .ke-toolbar-icon-url.ke-icon-source {
+    background-position: 1px 0;
+}
+.ke-container-nowcoder .ke-toolbar-icon-url.ke-icon-preview {
+    background-position: 1px -23px;
+}
+.ke-container-nowcoder .ke-toolbar-icon-url.ke-icon-table{
+    background-position: 1px -48px;
+}
+/* tool bar fixed */
+.fixed-eidt-header.ke-container-nowcoder {
+    padding-top: 39px;
+}
+.fixed-eidt-header.ke-container-nowcoder .ke-toolbar {
+    position: fixed;
+    top: 55px;
+    border: 1px solid #ccc;
+    margin: -1px;
+    width: 628px;
+}
